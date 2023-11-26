@@ -31,7 +31,7 @@ def merge_pdfs_with_blank(input_folder, output_folder):
             merger.close()
 
 if __name__ == "__main__":
-    input_folder = "Input folder"
-    output_folder = "Folder Name"
+    input_folder = "After_adding_blank_page"
+    output_folder = "Merged_Output_files"
 
     merge_pdfs_with_blank(input_folder, output_folder)
